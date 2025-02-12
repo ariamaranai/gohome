@@ -6,5 +6,5 @@ chrome.runtime.onInstalled.addListener(() =>
   })
 );
 chrome.contextMenus.onClicked.addListener((_, tab) =>
-  chrome.tabs.update({ url: (new URL(tab.url)).origin + "/"})
+  chrome.tabs.update({ url: (new URL(tab.url)).origin + "/" })
 );
