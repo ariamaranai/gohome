@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() =>
   chrome.contextMenus.create({
     id: "",
     title: "Go host",
-    contexts: ["all"]
+    contexts: ["page", "frame", "link", "editable", "image", "video"]
   })
 );
 chrome.contextMenus.onClicked.addListener((_, tab) =>
