@@ -6,6 +6,6 @@ chrome.runtime.onInstalled.addListener(() =>
     id: "",
     title: "Go host",
     contexts: ["page", "frame", "link", "editable", "image", "video"],
-    documentUrlPatterns: ["https://*/*", "https://*/", "http://*/*", "http://*/"]
+    documentUrlPatterns: ["https://*/*", "http://*/*"]
   })
 );
