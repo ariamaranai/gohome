@@ -7,9 +7,10 @@
     "128": "128.png"
   },
   "permissions": [
-    "contextMenus"
+    "tabs"
   ],
   "background": {
     "service_worker": "bg.js"
-  }
+  },
+  "action": {}
 }
